@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Weapon Repair Mod" />
+		<Description value="This mod will change requirements to repair weapons." />
+		<Author value="Survager" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>
