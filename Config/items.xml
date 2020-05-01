@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <survager>
-
-	<!--<remove xpath="/blocks/block[@name='cntStorageChest']" />
-	<remove xpath="/blocks/block[@name='cntSecureStorageChest']" />
-	<remove xpath="/blocks/block[@name='cntLootChestHero']" />
-	<remove xpath="/blocks/block[@name='cntLootChestHeroInsecure']" />-->
 	
 	<!-- Пистолеты -->
 	<append xpath="/items/item[@name='gunPistolParts']">
