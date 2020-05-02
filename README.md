@@ -1,4 +1,4 @@
-# mod_weapon_repair_system
+# modlet_Required_Various_Materials_to_Repair_Weapons_And_Tools
 This mod for 7 Days To Die will change requirements to repair weapons.
 Этот мод изменить требования к ремонту оружия и некоторых инструментов, а также увеличит срок службы измененных предметов.
 
