@@ -1,0 +1,4 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,Russian
+rechargeBlock,,blocks,Block,New,Recharge Block,Зарядный Блок
+rechargeBlockDesc,,blocks,Block,New,"Recharge Block used to reload some weapons and tools. Connect it to a power source and place objects requiring recharging in the cells.","Зарядный Блок используемый для перезарядки некоторого оружия и инструментов. Подлключите его к источнику питания и поместите в ячейки предметы, требующие зарядки".
+

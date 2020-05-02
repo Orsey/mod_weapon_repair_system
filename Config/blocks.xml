@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<survager>
+
+	<append xpath="/blocks">
+		<block name="rechargeBlock">
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="BatteryBank"/>
+		
+			<property name="CustomIcon" value="controlPanelBase04" />
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Industrial/control_panel_base_01" param1="main_mesh"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="2"/>
+		
+			
+			<!--<property name="Material" value="Mmetal_weak"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Mesh" value="models"/>
+			<property name="Path" value="solid"/>-->
+			<property name="Model" value="Entities/Electrical/battery_bankPrefab"/> -->
+			<property name="Model" value="Industrial/control_panel_base_04" param1="main_mesh"/>
+			<property name="HandleFace" value="Bottom"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="DescriptionKey" value="rechargeBlockDesc"/>
+			<!--<property name="UnlockedBy" value="perkAdvancedEngineering,batterybankSchematic"/>-->
+			
+			<property name="MaxPower" value="5"/>
+			<property name="InputPerTick" value="1"/>
+			<property name="ChargePerInput" value="1"/>
+			<property name="OutputPerStack" value="5"/>
+			<property name="OutputPerCharge" value="9"/>
+			<property name="SlotItem" value="gunJunkTurret,meleeStunBaton"/>
+			<property name="Group" value="Science"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="8"/>
+				<property name="resourceElectricParts" value="6"/>
+				<property name="resourceElectricParts" value="2"/>
+				<property name="resourceScrapPolymers" value="4"/>
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceForgedIron" count="3" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceElectricParts" count="2,3" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceElectricParts" count="1,2" prob="0.6" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="TakeDelay" value="15"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+	</append>
+
+	<!--<set xpath="/blocks/block[@name='batterybank']/property[@name='SlotItem']/@value">carBattery,gunJunkTurret,meleeStunBaton</set>-->
+</survager>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<survager>
+
+	<append xpath="/recipes">
+		<recipe name="rechargeBlock" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="15"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+		</recipe>
+	</append>
+	
+</survager>
