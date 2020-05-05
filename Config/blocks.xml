@@ -22,7 +22,7 @@
 			<property name="Shape" value="ModelEntity"/>
 			<property name="Mesh" value="models"/>
 			<property name="Path" value="solid"/>-->
-			<property name="Model" value="Entities/Electrical/battery_bankPrefab"/> -->
+			<property name="Model" value="Entities/Electrical/battery_bankPrefab"/>
 			<property name="Model" value="Industrial/control_panel_base_04" param1="main_mesh"/>
 			<property name="HandleFace" value="Bottom"/>
 			<property name="ImposterDontBlock" value="true"/>
